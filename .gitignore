@@ -34,3 +34,11 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+Data/Boundary/tl_2016_us_county.cpg
+Data/Boundary/tl_2016_us_county.dbf
+Data/Boundary/tl_2016_us_county.prj
+Data/Boundary/tl_2016_us_county.shp
+Data/Boundary/tl_2016_us_county.shp.ea.iso.xml
+Data/Boundary/tl_2016_us_county.shp.iso.xml
+Data/Boundary/tl_2016_us_county.shp.xml
+Data/Boundary/tl_2016_us_county.shx

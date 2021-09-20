@@ -64,9 +64,8 @@ pm25_bikm_up <- 1000000^2 / (co3[1] - se3[1] * 1.96) / 404 * 1.609344 / 10^9
 
 
 #create spatail panel dataset
-shape_usa_county <- st_as_sf(shape_usa_county) %>% dplyr::select(GEOID)
-spatial_panel <- left_join(data_set, shape_usa_county)
-spatial_panel <- as_Spatial(spatial_panel$geometry)
+shape_usa_county@data <- shape_usa_county@data %>% dplyr::select(GEOID)
+spatial_panel <- sp::merge(shape_usa_county, data_set, duplicateGeoms = T)
 rm(shape_usa_county)
 
 spatial_panel <- spatial_panel %>%

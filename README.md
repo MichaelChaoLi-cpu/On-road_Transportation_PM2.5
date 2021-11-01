@@ -30,6 +30,9 @@ Approximately 3,605 premature deaths are attributed to PM2.5 originating from on
 We thank Jos Lelieveld, Andrea Pozzer, and other authors for providing the Raster data of PM2.5-related premature deaths.  
 We also thank all abovementioned data providers for making their data public and for enabling this research to be possible.  
   
+## Cite our Article  
+Li, C., Managi, S., 2021. Contribution of on-road transportation to PM2.5. Scientific Reports 11.
+  
 ## Contact Us:
 - Email: Prof. Shunsuke Managi <managi@doc.kyushu-u.ac.jp>  
 - Email: Chao Li <chaoli0394@gmail.com>  
